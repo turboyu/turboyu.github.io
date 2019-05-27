@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-05-27T19:37:06.824Z</updated>
+    <updated>2019-05-27T19:48:36.067Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -16,7 +16,11 @@
         <link href="https://turboyu.github.io/post/ke-xue-shang-wang-de-zheng-que-zi-shi-zai-vultr-vps-shang-da-jian-shadowsocks">
         </link>
         <updated>2019-05-27T09:46:31.000Z</updated>
-        <content type="html"><![CDATA[<p>如果你是一个离开 Google 生活就无法自理的人类，曾经发帖、提问、翻遍各种网站，四处寻找靠谱的科学上网的利器。也确实找到过一些能满足当下需求的产品，但是不久后，就被封的被封、跑路的跑路。</p>
+        <summary type="html"><![CDATA[<p>一份有 ❤️ 的萌新的造梯指南</p>
+]]></summary>
+        <content type="html"><![CDATA[<p>一份有 ❤️ 的萌新的造梯指南</p>
+<!-- more -->
+<p>如果你是一个离开 Google 生活就无法自理的人类，曾经发帖、提问、翻遍各种网站，四处寻找靠谱的科学上网的利器。也确实找到过一些能满足当下需求的产品，但是不久后，就被封的被封、跑路的跑路。</p>
 <p>而且这些服务通常价格不低，稳定性也差强人意。这时候可以想想，反正都是通过海外服务器来提供建服务，为什么不干脆自己来搭呢？既能独享带宽，又安心可控，而且选取合适的供应商的话，价格也很平易近人。</p>
 <p>搭建完以后，网速飞起！从此油管（YouTube）4K 不是梦！！！</p>
 <p><img src="https://turboyu.github.io/post-images/1558985482436.jpg" alt=""></p>
@@ -141,7 +145,7 @@ chmod +x shadowsocks-all.sh
 <li><a href="https://medium.com/@scomper/surge-for-mac-%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97-f6f357b8f09c">简化版 Surge教程</a></li>
 </ul>
 <p>Surge 目前定价 328 元，另有 Mac 版（另外收费）。作为一款兼具「科学上网」功能的网络开发调试利器，它完全值这个价。觉得太贵的话，可以使用相对便宜的 <a href="https://itunes.apple.com/us/app/wingy-smart-proxy-for-http/id1148026741?mt=8">Wingy</a> 或者 <a href="https://itunes.apple.com/us/app/potatso-2/id1162704202?mt=8">Potatso</a>。</p>
-<h3 id="5-一个彩蛋~">5. 一个彩蛋🥚～</h3>
+<h2 id="5-一个彩蛋~">5. 一个彩蛋🥚～</h2>
 <p>IOS平台（iPhone、iPad）推荐大家去<a href="https://pro.25pp.com/">PP助手</a>下载安装 Shadowrocket（目前貌似搜索不到）。</p>
 <p>以 iPhone 为例，点击下图标黄的 App。</p>
 <p><img src="https://turboyu.github.io/post-images/1558982531168.jpg" alt=""></p>
@@ -160,6 +164,7 @@ chmod +x shadowsocks-all.sh
 <li><a href="http://vc2tea.com/whats-shadowsocks/">写给非专业人士看的 Shadowsocks 简介</a></li>
 <li><a href="http://www.ruanyifeng.com/blog/2011/12/ssh_remote_login.html">SSH 原理与运用（一）：远程登录</a></li>
 </ul>
+<p><img src="https://turboyu.github.io/post-images/1558986474138.jpg" alt=""></p>
 ]]></content>
     </entry>
 </feed>
