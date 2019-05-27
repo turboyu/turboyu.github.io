@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-05-27T19:48:36.067Z</updated>
+    <updated>2019-05-27T19:55:41.198Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -130,7 +130,7 @@ chmod +x shadowsocks-all.sh
 <p><img src="https://turboyu.github.io/post-images/1558979659410.jpg" alt=""></p>
 <p>此处如果之前有安装 simple-obfs，需在插件一栏填写 <code>obfs-local</code>，插件选项填写 <code>obfs=tls</code> 或 <code>obfs=http</code>（视乎你选择的混淆方式）。</p>
 <p>然后启用代理，就可以实现科学上网了。</p>
-<p>⚠️完成上述步骤后，使用过程中可能会发现连接速度有时不太令人满意。这就是加速工具们发挥功能的时候了。常用的加速工具有「锐速」、TCP BBR、kcptun，等等。原理虽各不相同，但都是通过一些技术手段，来实现连接和传输速度的提升。这些我会在以后更新到教程里，尽情期待～</p>
+<p>⚠️完成上述步骤后，使用过程中可能会发现连接速度有时不太令人满意。这就是加速工具们发挥功能的时候了。常用的加速工具有「锐速」、TCP BBR、kcptun，等等。原理虽各不相同，但都是通过一些技术手段，来实现连接和传输速度的提升。这些我会在以后更新到教程里，敬请期待～</p>
 <h2 id="4-一些也许对你有用的教程">4. 一些也许对你有用的教程</h2>
 <p>在客户端的代理设置上，还有些更强大和个性化的选择，你可以参考下文中的教程自行探索。</p>
 <h3 id="41-关于浏览器">4.1 关于浏览器</h3>
@@ -146,7 +146,7 @@ chmod +x shadowsocks-all.sh
 </ul>
 <p>Surge 目前定价 328 元，另有 Mac 版（另外收费）。作为一款兼具「科学上网」功能的网络开发调试利器，它完全值这个价。觉得太贵的话，可以使用相对便宜的 <a href="https://itunes.apple.com/us/app/wingy-smart-proxy-for-http/id1148026741?mt=8">Wingy</a> 或者 <a href="https://itunes.apple.com/us/app/potatso-2/id1162704202?mt=8">Potatso</a>。</p>
 <h2 id="5-一个彩蛋~">5. 一个彩蛋🥚～</h2>
-<p>IOS平台（iPhone、iPad）推荐大家去<a href="https://pro.25pp.com/">PP助手</a>下载安装 Shadowrocket（目前貌似搜索不到）。</p>
+<p>iOS平台（iPhone、iPad）推荐大家去<a href="https://pro.25pp.com/">PP助手</a>下载安装 Shadowrocket（目前貌似搜索不到）。</p>
 <p>以 iPhone 为例，点击下图标黄的 App。</p>
 <p><img src="https://turboyu.github.io/post-images/1558982531168.jpg" alt=""></p>
 <p>进入到 Shadowrocket 的首页，点击右上方的 &quot;+&quot; 按钮，添加节点。</p>
