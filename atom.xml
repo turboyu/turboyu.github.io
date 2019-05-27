@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-05-27T09:37:07.933Z</updated>
+    <updated>2019-05-27T09:55:44.124Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -10,4 +10,13 @@
     <logo>https://turboyu.github.io/images/avatar.png</logo>
     <icon>https://turboyu.github.io/favicon.ico</icon>
     <rights>All rights reserved 2019, 村头的水泥地</rights>
+    <entry>
+        <title type="html"><![CDATA[科学上网的正确姿势：在 Vultr VPS 上搭建 Shadowsocks]]></title>
+        <id>https://turboyu.github.io/post/ke-xue-shang-wang-de-zheng-que-zi-shi-zai-vultr-vps-shang-da-jian-shadowsocks</id>
+        <link href="https://turboyu.github.io/post/ke-xue-shang-wang-de-zheng-que-zi-shi-zai-vultr-vps-shang-da-jian-shadowsocks">
+        </link>
+        <updated>2019-05-27T09:46:31.000Z</updated>
+        <content type="html"><![CDATA[<p>而且这些服务通常价格不低，稳定性也差强人意。这时候可以想想，反正都是通过海外服务器来提供建服务，为什么不干脆自己来搭呢？既能独享带宽，又安心可控，而且选取合适的供应商的话，价格也很平易近人。</p>
+]]></content>
+    </entry>
 </feed>
