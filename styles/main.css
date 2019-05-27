@@ -753,6 +753,10 @@ a {
 }
 
       .sidebar .top-container .site-nav {
-        color: #66d9e8;
+        color: #adb5bd;
+      }
+    
+      body {
+        background: #ffffff;
       }
     
