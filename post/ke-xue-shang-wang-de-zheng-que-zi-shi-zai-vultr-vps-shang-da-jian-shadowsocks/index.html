@@ -9,7 +9,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.2/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
-<link rel="shortcut icon" href="https://turboyu.github.io/favicon.ico?v=1559015010556">
+<link rel="shortcut icon" href="https://turboyu.github.io/favicon.ico?v=1559015696723">
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/KaTeX/0.10.0/katex.min.css">
 <link rel="stylesheet" href="https://turboyu.github.io/styles/main.css">
 
@@ -36,7 +36,7 @@
   <div class="top-container" data-aos="fade-right">
     <div class="top-header-container">
       <a class="site-title-container" href="https://turboyu.github.io">
-        <img src="https://turboyu.github.io/images/avatar.png?v=1559015010556" class="site-logo">
+        <img src="https://turboyu.github.io/images/avatar.png?v=1559015696723" class="site-logo">
         <h1 class="site-title">村头的水泥地</h1>
       </a>
       <div class="menu-btn" @click="menuVisible = !menuVisible">
@@ -153,7 +153,7 @@
 <p><img src="https://turboyu.github.io/post-images/1558974114555.jpg" alt=""></p>
 <p>选择一个你想要的节点。推荐东京和洛杉矶，速度较快，不过这也受运营商网络、你的地理位置影响，如果有试用金可以多建几个自行对比。</p>
 <p><img src="https://turboyu.github.io/post-images/1558975236636.jpg" alt=""></p>
-<p>在这里我整理了官方发布的14个数据中心的测试 IP 和文件下载地址，你可以再常用地 分别 ping 一下这些 IP，看一下哪个速度最快，便于你在选购项目的时候选择适合自己的机房。</p>
+<p>在这里我整理了官方发布的14个数据中心的测试 IP 和文件下载地址，你可以再常用地分别 ping 一下这些 IP，看一下哪个速度最快，便于你在选购项目的时候选择适合自己的机房。</p>
 <p>第一、日本东京</p>
 <p>IP地址：108.61.201.151</p>
 <p>1000MB文件下载测试：http://hnd-jp-ping.vultr.com/vultr.com.1000MB.bin</p>
@@ -211,11 +211,11 @@
 <p><img src="https://turboyu.github.io/post-images/1558975976419.jpg" alt=""></p>
 <h3 id="23-连接-vps">2.3 连接 VPS</h3>
 <p>如果你使用的是 PC，连接 VPS 需要借助一些工具，比如 <a href="https://www.putty.org/">Putty</a>。你可以参考这篇 <a href="https://jingyan.baidu.com/article/8ebacdf0d9e86549f75cd57b.html">百度经验</a> 完成安装，安装完成后步骤与下文 Mac 一致。</p>
-<p>Mac 只要打开「终端」应用即可开始使用 SSH 连接 VPS。你的「终端」界面可能和下图略有差别，但是差不远 ── 都有一个闪烁的光标，前面会有一个 <code>$</code> 符号。</p>
+<p>Mac 只要打开「终端」应用即可开始使用 SSH 连接 VPS。你的「终端」界面可能和下图略有差别，但是差不远 ── 都有一个闪烁的光标，前面会有一个 <code>$</code> 符号（下图是因为我配置了终端的主题，所以是<code>～</code>）。</p>
 <p><img src="https://turboyu.github.io/post-images/1558976344850.jpg" alt=""></p>
 <p>首先，在 Vultr 上你刚部署的服务器右边点&quot;Manage&quot;，找到服务器的 IP 地址（标黄部分）和密码。</p>
 <p><img src="https://turboyu.github.io/post-images/1558976877969.jpg" alt=""></p>
-<p>在「终端」或 Putty 等应用中，输入下面的命令并回车。注意把 <code>&lt;host&gt;</code> 替换成你服务器的 IP 地址。</p>
+<p>在「终端」或 Putty 等应用中，输入下面的命令并回车。⚠️注意把 <code>&lt;host&gt;</code> 替换成你服务器的 IP 地址。</p>
 <pre><code>ssh root@&lt;host&gt;
 </code></pre>
 <p>接下来屏幕上会出现一连串提示，意为无法确认 host 主机的真实性，只知道它的公钥指纹，问你还想继续连接吗？直接输入 yes 并回车。</p>
@@ -235,7 +235,7 @@ chmod +x shadowsocks-all.sh
 
 ./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log
 </code></pre>
-<p>最后一步输完，你应该会看到下图中内容──是要你选择需要安装的 Shadowsocks 版本。这里选择
+<p>最后一步输完，你应该会看到下图中内容 ── 是要你选择需要安装的 Shadowsocks 版本。这里选择
 4)<a href="https://github.com/shadowsocks/shadowsocks-libev">shadowsocks-libev</a>，因为正如上文所说，这是目前唯一在持续更新且最为轻量的版本。</p>
 <p><img src="https://turboyu.github.io/post-images/1558977862089.png" alt=""></p>
 <p>选好输入回车后，会让你输入 Shadowsocks 的密码。</p>
@@ -252,7 +252,7 @@ chmod +x shadowsocks-all.sh
 <p><img src="https://turboyu.github.io/post-images/1558978113286.png" alt=""></p>
 <p>结束后就会看到你所部署的 Shadowsocks 的配置信息。</p>
 <p><img src="https://turboyu.github.io/post-images/1558978139553.png" alt=""></p>
-<p>记住红色的内容，也就是服务器 IP、服务器 ss 端口、你设的密码、混淆方式和加密方式。</p>
+<p>⚠️记住红色的内容，也就是服务器 IP、服务器 ss 端口、你设的密码、混淆方式和加密方式。</p>
 <h3 id="32-检查和配置-shadowsocks">3.2 检查和配置 Shadowsocks</h3>
 <p>安装完成以后，Shadowsocks 的服务器端就已经配置完了，你可以输入以下命令检查是否已经开始运行。</p>
 <pre><code>/etc/init.d/shadowsocks-libev status
@@ -267,14 +267,14 @@ chmod +x shadowsocks-all.sh
 <p><code>/etc/init.d/shadowsocks-libev restart</code></p>
 <p>另外，如需添加多端口或多用户 —— 很遗憾，shadowsocks-libev 无法通过简单的修改配置文件来实现。不过，作者另外开发了一个 ss-manager，来管理和开启多端口，感兴趣的话我以后会再更新一篇教程。</p>
 <h3 id="33-安装-shadowsocks-客户端">3.3 安装 Shadowsocks 客户端</h3>
-<p>恭喜你！如果你坚持到了现在，那么万里长征你已经走完了90%！坚持下去✊</p>
+<p>恭喜你！如果你坚持到了现在，那么万里长征路你已经走完了90%！坚持下去✊</p>
 <p>相比服务器端的安装，客户端的安装就简单了许多。首先，在 <a href="https://shadowsocks.org/en/download/clients.html">这个页面</a> 找到并下载自己操作系统对应的客户端。</p>
 <p><img src="https://turboyu.github.io/post-images/1558979619969.jpg" alt=""></p>
 <p>打开客户端，在「服务器设定」里新增服务器。</p>
 <p><img src="https://turboyu.github.io/post-images/1558979667182.jpg" alt=""></p>
 <p>然后依次填入服务器 IP、服务器端口、你设的密码和加密方式。</p>
 <p><img src="https://turboyu.github.io/post-images/1558979659410.jpg" alt=""></p>
-<p>此处如果之前有安装 simple-obfs，需在插件一栏填写 <code>obfs-local</code>，插件选项填写 <code>obfs=tls</code> 或 <code>obfs=http</code>（视乎你选择的混淆方式）。</p>
+<p>此处如果之前有安装 simple-obfs，需在插件一栏填写 <code>obfs-local</code>，插件选项填写 <code>obfs=tls</code> 或 <code>obfs=http</code>（参照你上边选择的混淆方式）。</p>
 <p>然后启用代理，就可以实现科学上网了。</p>
 <p>⚠️完成上述步骤后，使用过程中可能会发现连接速度有时不太令人满意。这就是加速工具们发挥功能的时候了。常用的加速工具有「锐速」、TCP BBR、kcptun，等等。原理虽各不相同，但都是通过一些技术手段，来实现连接和传输速度的提升。这些我会在以后更新到教程里，敬请期待～</p>
 <h2 id="4-一些也许对你有用的教程">4. 一些也许对你有用的教程</h2>
