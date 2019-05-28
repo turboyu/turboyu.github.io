@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-05-28T03:31:56.128Z</updated>
+    <updated>2019-05-28T03:43:32.227Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -179,7 +179,7 @@ chmod +x shadowsocks-all.sh
 <p>然后启用代理，就可以实现科学上网了。</p>
 <p>⚠️完成上述步骤后，使用过程中可能会发现连接速度有时不太令人满意。这就是加速工具们发挥功能的时候了。常用的加速工具有「锐速」、TCP BBR、kcptun，等等。原理虽各不相同，但都是通过一些技术手段，来实现连接和传输速度的提升。这些我会在以后更新到教程里，敬请期待～</p>
 <h2 id="4-一些也许对你有用的教程">4. 一些也许对你有用的教程</h2>
-<p>在客户端的代理设置上，还有些更强大和个性化的选择，你可以参考下文中的教程自行探索。</p>
+<p>在客户端的代理设置上，还有些更强大和个性化的选择，你可以参考以下教程自行探索。配置过程也许会有很多的坑，不过正因为踩过这些坑才让整个过程有一种值得欣慰的意义～相信你自己，没问题的！</p>
 <h3 id="41-关于浏览器">4.1 关于浏览器</h3>
 <p>依然记得自己使用「红杏」的畅快体验 ── 哪个网站不能访问了，按下图标添加到规则列表中，就可以「科学」地访问了。这种无缝的体验，靠 Shadowsocks 加另一款 Chrome 扩展 SwitchyOmega 也能实现，这里是<a href="https://github.com/FelisCatus/SwitchyOmega/wiki/GFWList">使用教程</a>。</p>
 <h3 id="42-关于桌面应用">4.2 关于桌面应用</h3>
@@ -192,7 +192,7 @@ chmod +x shadowsocks-all.sh
 <li><a href="https://medium.com/@scomper/surge-for-mac-%E7%AE%80%E6%98%8E%E6%8C%87%E5%8D%97-f6f357b8f09c">简化版 Surge教程</a></li>
 </ul>
 <p>Surge 目前定价 328 元，另有 Mac 版（另外收费）。作为一款兼具「科学上网」功能的网络开发调试利器，它完全值这个价。觉得太贵的话，可以使用相对便宜的 <a href="https://itunes.apple.com/us/app/wingy-smart-proxy-for-http/id1148026741?mt=8">Wingy</a> 或者 <a href="https://itunes.apple.com/us/app/potatso-2/id1162704202?mt=8">Potatso</a>。</p>
-<h2 id="5-一个彩蛋~">5. 一个彩蛋🥚～</h2>
+<h2 id="一个彩蛋~">一个彩蛋🥚～</h2>
 <p>iOS平台（iPhone、iPad）推荐大家去<a href="https://pro.25pp.com/">PP助手</a>下载安装 Shadowrocket（目前貌似搜索不到）。</p>
 <p>以 iPhone 为例，点击下图标黄的 App。</p>
 <p><img src="https://turboyu.github.io/post-images/1558982531168.jpg" alt=""></p>
