@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-05-27T19:57:37.865Z</updated>
+    <updated>2019-05-28T03:31:56.128Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -21,12 +21,12 @@
         <content type="html"><![CDATA[<p>一份有 ❤️ 的萌新的造梯指南</p>
 <!-- more -->
 <p>如果你是一个离开 Google 生活就无法自理的人类，曾经发帖、提问、翻遍各种网站，四处寻找靠谱的科学上网的利器。也确实找到过一些能满足当下需求的产品，但是不久后，就被封的被封、跑路的跑路。</p>
-<p>而且这些服务通常价格不低，稳定性也差强人意。这时候可以想想，反正都是通过海外服务器来提供建服务，为什么不干脆自己来搭呢？既能独享带宽，又安心可控，而且选取合适的供应商的话，价格也很平易近人。</p>
+<p>而且这些服务通常价格不低，稳定性也差强人意。这时候可以想想，反正都是通过海外服务器来提供服务，为什么不干脆自己来搭呢？既能独享带宽，又安心可控，而且选取合适的供应商的话，价格也很平易近人。</p>
 <p>搭建完以后，网速飞起！从此油管（YouTube）4K 不是梦！！！</p>
 <p><img src="https://turboyu.github.io/post-images/1558985482436.jpg" alt=""></p>
 <p>所以，如果你不满足那些服务，又有耐心的话，这里有一份详细而对萌新友好的入坑指南。事先说明，如果你希望不花一分钱就能用上优质的服务......醒醒！别做梦了！免费和优质从来不可能划上等号。</p>
 <h2 id="1-一些背景和原理">1. 一些背景和原理</h2>
-<p>因为整个折腾过程对没有技术背景的人来说，还是略显复杂的，所以有必要先粗浅地介绍一下所涉及的概念和原理。如果不感兴趣可以跳过第一部分，直接看操作步骤。</p>
+<p>因为整个折腾过程对没有技术背景的人来说，还是略显复杂的，所以有必要先粗浅地介绍一下所涉及的概念和原理。如果不感兴趣可以跳过第一部分，直接看第二部分以后的操作步骤。</p>
 <h3 id="11-什么是-shadowsocks">1.1 什么是 Shadowsocks</h3>
 <p><img src="https://turboyu.github.io/post-images/1558971056501.png" alt=""></p>
 <p>Shadowsocks(ss) 是由 Clowwindy 开发的一款软件，其作用本来是加密传输资料。当然，也正因为它加密传输资料的特性，使得 GFW 没法将由它传输的资料和其他普通资料区分开来（上图），也就不能干扰我们访问那些「不存在」的网站了。</p>
@@ -44,14 +44,61 @@
 <h2 id="2-购买和连接-vps">2. 购买和连接 VPS</h2>
 <p>首先，访问 <a href="https://www.vultr.com/?ref=7270768">Vultr.com</a> 注册帐号，网站目前还没有被墙，访问速度不错。</p>
 <h3 id="21-注册-vultr">2.1 注册 Vultr</h3>
-<p>Vultr 官网定期会有一些促销活动，可以留意。另外，如果使用我的 <a href="https://www.vultr.com/?ref=7270768">推荐链接</a> 注册，激活后可以获赠 $50 试用金！！！有效期两个月。</p>
+<p>Vultr 官网定期会有一些促销活动，可以留意。另外，如果使用我的 <a href="https://www.vultr.com/?ref=8112127-4F">推荐链接</a> 注册，激活后可以获赠 $50 试用金！！！有效期30天。</p>
 <p><img src="https://turboyu.github.io/post-images/1558973403007.jpg" alt=""></p>
 <p>换句话说，注册后两个月内可以免费使用 5 个最低配置的 VPS。可以趁这段时间，把不同国家的节点试个遍，不过到期后记着删除多余的服务器。</p>
+<p>支付方式多样，包括微信、支付宝和比特币～</p>
+<p><img src="https://turboyu.github.io/post-images/1559013458957.jpg" alt=""></p>
 <h3 id="22-部署-vps">2.2 部署 VPS</h3>
 <p>注册完成后，在左边选择“Servers”标签，点击右边的加号部署新的服务器。</p>
 <p><img src="https://turboyu.github.io/post-images/1558974114555.jpg" alt=""></p>
 <p>选择一个你想要的节点。推荐东京和洛杉矶，速度较快，不过这也受运营商网络、你的地理位置影响，如果有试用金可以多建几个自行对比。</p>
 <p><img src="https://turboyu.github.io/post-images/1558975236636.jpg" alt=""></p>
+<p>在这里我整理了官方发布的14个数据中心的测试 IP 和文件下载地址，你可以再常用地 分别 ping 一下这些 IP，看一下哪个速度最快，便于你在选购项目的时候选择适合自己的机房。</p>
+<p>第一、日本东京</p>
+<p>IP地址：108.61.201.151</p>
+<p>1000MB文件下载测试：http://hnd-jp-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第二、澳大利亚悉尼</p>
+<p>IP地址：108.61.212.117</p>
+<p>1000MB文件下载测试：http://syd-au-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第三、德国法兰克福</p>
+<p>IP地址：108.61.210.117</p>
+<p>1000MB文件下载测试：http://fra-de-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第四、荷兰阿姆斯特丹</p>
+<p>IP地址：108.61.198.102</p>
+<p>1000MB文件下载测试：http://ams-nl-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第五、英国伦敦</p>
+<p>IP地址：108.61.196.101</p>
+<p>1000MB文件下载测试：http://lon-gb-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第六、法国巴黎</p>
+<p>IP地址：108.61.209.127</p>
+<p>1000MB文件下载测试：http://par-fr-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第七、美国西雅图</p>
+<p>IP地址：108.61.194.105</p>
+<p>1000MB文件下载测试：http://wa-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第八、美国加州</p>
+<p>IP地址：104.156.230.107</p>
+<p>1000MB文件下载测试：http://sjo-ca-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第九、美国洛杉矶</p>
+<p>IP地址：108.61.219.200</p>
+<p>1000MB文件下载测试：http://lax-ca-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第十、美国芝加哥</p>
+<p>IP地址：107.191.51.12</p>
+<p>1000MB文件下载测试：http://il-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第十一、美国纽约</p>
+<p>IP地址：108.61.149.182</p>
+<p>1000MB文件下载测试：http://nj-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第十二、美国达拉斯</p>
+<p>IP地址：108.61.224.175</p>
+<p>1000MB文件下载测试：http://tx-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第十三、美国亚特兰大</p>
+<p>IP地址：108.61.193.166</p>
+<p>1000MB文件下载测试：http://ga-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>第十四、美国迈阿密</p>
+<p>IP地址：104.156.244.232</p>
+<p>1000MB文件下载测试：http://fl-us-ping.vultr.com/vultr.com.1000MB.bin</p>
+<p>例如，我 ping 一下东京的 IP，延迟再 100ms 左右，这个速度还是可以的。</p>
+<p><img src="https://turboyu.github.io/post-images/1559014257028.jpg" alt=""></p>
 <p>为 VPS 选择安装系统。这里因为安装脚本限制的原因，请选择 CentOS 6+，Debian 7+，Ubuntu 12+ 的系统，具体哪个可以随自己喜欢。下面的教程以 Ubuntu 18.10 为例。</p>
 <p><img src="https://turboyu.github.io/post-images/1558975284176.jpg" alt=""></p>
 <p>根据需求选择套餐。只需科学上网的话，$5 绰绰有余。</p>
@@ -59,7 +106,7 @@
 <p>部分节点（Atlanta、New York）会有限时 $2.5 的套餐。</p>
 <p><img src="https://turboyu.github.io/post-images/1558975425883.jpg" alt=""></p>
 <p>剩下都可以使用默认值。最后一项你可以自定义服务器的名字和标签，以方便区分。</p>
-<p>另外，上图第 6 步中，SSH Keys 的作用是，可以让你登录 VPS 时不用每次手动输密码。若只将其用作 Shadowsocks 服务器，仅需要在配置时登录一次，可以完全忽略它。如果要同时作他用，可参考 <a href="https://www.vultr.com/docs/how-do-i-generate-ssh-keys/">此文</a> 生成并添加 SSH Key。</p>
+<p>另外，下图第 6 步中，SSH Keys 的作用是，可以让你登录 VPS 时不用每次手动输密码。若只将其用作 Shadowsocks 服务器，仅需要在配置时登录一次，可以完全忽略它。如果要同时作他用，可参考 <a href="https://www.vultr.com/docs/how-do-i-generate-ssh-keys/">此文</a> 生成并添加 SSH Key。</p>
 <p><img src="https://turboyu.github.io/post-images/1558975063656.jpg" alt=""></p>
 <p>等待系统安装完成。当显示“Running”时，就表示部署已完成。之后你可以随时停用、重启或销毁它。</p>
 <p><img src="https://turboyu.github.io/post-images/1558975976419.jpg" alt=""></p>
