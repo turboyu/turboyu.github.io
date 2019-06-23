@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-06-23T10:55:55.191Z</updated>
+    <updated>2019-06-23T10:56:41.468Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -99,8 +99,14 @@
 <p>绑定的是当前手机的 SIM 卡（其实登录后绑定的主卡是可以更换的）。</p>
 <p><img src="https://turboyu.github.io/post-images/1561275714001.PNG" alt=""></p>
 <p>现在我们来做两道道数学题：</p>
+<ol>
+<li>
 <p>问：如果你拥有一张实名SIM卡，你最多可以拥有几个手机号？维护这些小号一年的成本是多少？</p>
+</li>
+<li>
 <p>问：如果你拥有一张身份证，你最多可以拥有几个手机号？维护这些号码一年的成本是多少？</p>
+</li>
+</ol>
 <h2 id="3-怎么实现微信影分身">3. 怎么实现微信影分身</h2>
 <p>多重影分身？？！难道是这样......</p>
 <p><img src="https://turboyu.github.io/post-images/1561276472661.jpg" alt=""></p>
