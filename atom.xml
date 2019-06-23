@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-06-23T10:56:41.468Z</updated>
+    <updated>2019-06-23T10:57:08.700Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -110,7 +110,7 @@
 <h2 id="3-怎么实现微信影分身">3. 怎么实现微信影分身</h2>
 <p>多重影分身？？！难道是这样......</p>
 <p><img src="https://turboyu.github.io/post-images/1561276472661.jpg" alt=""></p>
-<p>答案当然不是！，上面讲的这些小号无论是不是实名都不能直接注册小号！！！</p>
+<p>答案当然不是！，上面讲的这些小号无论是不是实名都不能直接注册微信号！！！</p>
 <p>所以正确的结印是什么样的呢？</p>
 <h3 id="31-注册微信小号">3.1 注册微信小号</h3>
 <p>来说一下目前配置：</p>
