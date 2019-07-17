@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-06-28T07:25:06.961Z</updated>
+    <updated>2019-07-17T11:04:46.668Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -136,7 +136,7 @@
 <p><img src="https://turboyu.github.io/post-images/1561278421395.PNG" alt=""></p>
 <p>那么我们原来的微信会怎么样呢？？它会变成无手机绑定状态～</p>
 <blockquote>
-<p>Todo：
+<p>Todo：<br>
 没有图，以后补</p>
 </blockquote>
 <p>所以接下来要做的是：</p>
@@ -288,7 +288,7 @@ chmod +x shadowsocks-all.sh
 
 ./shadowsocks-all.sh 2&gt;&amp;1 | tee shadowsocks-all.log
 </code></pre>
-<p>最后一步输完，你应该会看到下图中内容 ── 是要你选择需要安装的 Shadowsocks 版本。这里选择
+<p>最后一步输完，你应该会看到下图中内容 ── 是要你选择需要安装的 Shadowsocks 版本。这里选择<br>
 4)<a href="https://github.com/shadowsocks/shadowsocks-libev">shadowsocks-libev</a>，因为正如上文所说，这是目前唯一在持续更新且最为轻量的版本。</p>
 <p><img src="https://turboyu.github.io/post-images/1558977862089.png" alt=""></p>
 <p>选好输入回车后，会让你输入 Shadowsocks 的密码。</p>
