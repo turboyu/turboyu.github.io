@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://turboyu.github.io</id>
     <title>村头的水泥地</title>
-    <updated>2019-09-21T05:35:52.189Z</updated>
+    <updated>2019-09-21T05:53:14.700Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://turboyu.github.io"/>
     <link rel="self" href="https://turboyu.github.io/atom.xml"/>
@@ -31,7 +31,7 @@
 <h1 id="怎么买">怎么买？</h1>
 <p>如果你所在的地区有 Apple Store 零售店，线下渠道是首选的购买途径。你只需要拿着学生证去就好了，非常方便。注意，这里的 Apple Store 零售店并不是指更广泛分布的授权经销商，具体可以到<a href="https://www.apple.com/cn/retail/storelist/">此页面</a>查找中国地区的零售店列表。但因为参加活动的人较多，零售店可能会出现缺货的情况。</p>
 <p>如果你附近没有 Apple Store 零售店，可以通过官网、天猫旗舰店或者官网电话验证身份购买。我自己体验过在官网购买，通过官网教育商店购买的流程大致如下：</p>
-<p><img src="https://turboyu.github.io/post-images/1569041230915.png" alt=""></p>
+<p><img src="https://turboyu.github.io/post-images/1569044436426.png" alt=""></p>
 <ol>
 <li>打开苹果官网，下拉网页到底部，找到「高校师生选购」选项。</li>
 </ol>
@@ -41,15 +41,14 @@
 </ol>
 <p><img src="https://turboyu.github.io/post-images/1569043743006.jpg" alt=""></p>
 <ol start="3">
-<li>
-<p>此时，页面中的所有商品均显示教育优惠后的价格，然后完成正常下单流程。</p>
-</li>
-<li>
-<p>当你提交订单后，苹果会向你的邮箱发送一封验证身份的邮件。</p>
-</li>
+<li>此时，页面中的所有商品均显示教育优惠后的价格，然后完成正常下单流程。</li>
+</ol>
+<p>⚠️⚠️⚠️ 收货人姓名一定要与学生证上的一致，发票要开自己的名字 👻，已代收的方式进行收货 😏</p>
+<ol start="4">
+<li>当你提交订单后，苹果会向你的邮箱发送一封验证身份的邮件。</li>
 </ol>
 <p><img src="https://turboyu.github.io/post-images/1569043960886.jpg" alt=""></p>
-<p>通过教育优惠购买都需要你提供相关的证件证明，即高校学生证或教师资格证，否则无法获取教育优惠。不过，刚刚毕业的高三学生通过准考证和录取通知书也是可以成功购买的。而且要注意收货地址上的姓名需要与证件保持一致，否则苹果可能会取消订单。按照邮件说明，如果是学生就将学生证封面、内容页、注册详情页拍照并发送到提供的指定邮箱即可。</p>
+<p>通过教育优惠购买都需要你提供相关的证件证明，即高校学生证或教师资格证，否则无法获取教育优惠。不过，刚刚毕业的高三学生通过准考证和录取通知书也是可以成功购买的。而且要注意收货地址上的姓名需要与证件保持一致，否则苹果可能会取消订单。按照邮件说明，如果是学生就将学生证封面、内容页、注册详情页拍照并发送到提供的指定邮箱即可（不过有时候只提供学生证是不够的，会被审核打回来，还要你提供校园邮箱或者校园系统截图等补充材料，按提示上传即可）。</p>
 <p><img src="https://turboyu.github.io/post-images/1569044059922.jpg" alt=""></p>
 <p>在国内，也就是 @xxx.edu.cn 结尾的邮箱。这可能是一个障碍，因为国内的高校，大多只会给教职工提供校园邮箱，而不会给学生提供。不过没关系，学校的系统截图也是可以的，具体电话或者邮件咨询Apple专家即可。教职工的话这里就不细说了～</p>
 <p><img src="https://turboyu.github.io/post-images/1569044141540.jpg" alt=""></p>
@@ -58,7 +57,18 @@
 <p>在店铺首页点击「教育专区」或开学促销广告，扫码完成支付宝学生验证后，即可返回活动页面查看优惠价格，省去了后续提交证明材料的步骤。</p>
 <p><img src="https://turboyu.github.io/post-images/1569043534550.jpg" alt=""></p>
 <p>目前，苹果教育优惠幅度和产品售价成正比。也就是说售价越高的产品，往往优惠的力度也就越大， Mac 系列约为原价的 93 到 96 折不等。另外，每年的秋季开学前，苹果一般会推出更大力度的学生优惠活动。</p>
-<h1 id="apple-music"><a href="https://support.apple.com/zh-cn/HT205928">Apple Music</a>和<a href="https://www.apple.com/cn-k12/shop/product/BMGE2CH/A">Pro App套装</a></h1>
+<p>⚠️ 注意事项</p>
+<ol>
+<li>收货人姓名与证件要保持一致，否则可能无法通过审核；</li>
+<li>签收时需要收货人出示身份证明或是苹果的发货通知单，不过实际操作中并没有那么严格；</li>
+<li>提供证明材料时，注意不要想当然地直接回复邮件，而应该发送到邮件中指定的邮箱地址；</li>
+<li>苹果明确规定了教师资格证不能作为证明材料，但从周围的反馈来看，也有成功的案例，不确定苹果在实际操作中的执行标准；</li>
+<li>香港地区也有类似的教育优惠，但不接受内地学生证，反之亦然；</li>
+<li>教育优惠最多只能享受 3 个月免息分期，不通过教育优惠则可享有最高 24 期免息分期；</li>
+<li>活动期间每人每次只能购买 1 件促销产品，每人每年可购买 2 台 Mac。</li>
+</ol>
+<p>另外，在实际操作中，苹果对教育优惠订单的审核已经不是抽查，而是每单必审。</p>
+<h1 id="apple-music"><a href="https://support.apple.com/zh-cn/HT205928">Apple Music</a> 和 <a href="https://www.apple.com/cn-k12/shop/product/BMGE2CH/A">Pro App套装</a></h1>
 <p>👨‍🎓 认证方式：学生证，校园邮箱、系统</p>
 <p>苹果除了硬件产品，Apple Music 和 Pro App 套装也提供了教育优惠。Apple Music 学生订阅价格为 5 元每月，相当良心。具体的操作方法，找时间再另做介绍。</p>
 <p><img src="https://turboyu.github.io/post-images/1569041451426.jpg" alt=""></p>
